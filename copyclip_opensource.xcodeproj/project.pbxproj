@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1368C9F5232D9F7E00410A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368C9F4232D9F7E00410A2E /* AppDelegate.swift */; };
+		1368C9F7232D9F7E00410A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368C9F6232D9F7E00410A2E /* ViewController.swift */; };
+		1368C9F9232D9F8100410A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1368C9F8232D9F8100410A2E /* Assets.xcassets */; };
+		1368C9FC232D9F8100410A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1368C9FA232D9F8100410A2E /* Main.storyboard */; };
+		1368CA08232D9F8100410A2E /* copyclip_opensourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368CA07232D9F8100410A2E /* copyclip_opensourceTests.swift */; };
+		1368CA13232D9F8100410A2E /* copyclip_opensourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368CA12232D9F8100410A2E /* copyclip_opensourceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1368CA04232D9F8100410A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1368C9E9232D9F7E00410A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1368C9F0232D9F7E00410A2E;
+			remoteInfo = copyclip_opensource;
+		};
+		1368CA0F232D9F8100410A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1368C9E9232D9F7E00410A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1368C9F0232D9F7E00410A2E;
+			remoteInfo = copyclip_opensource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1368C9F1232D9F7E00410A2E /* copyclip_opensource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copyclip_opensource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1368C9F4232D9F7E00410A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1368C9F6232D9F7E00410A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1368C9F8232D9F8100410A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1368C9FB232D9F8100410A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1368C9FD232D9F8100410A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1368C9FE232D9F8100410A2E /* copyclip_opensource.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = copyclip_opensource.entitlements; sourceTree = "<group>"; };
+		1368CA03232D9F8100410A2E /* copyclip_opensourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = copyclip_opensourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1368CA07232D9F8100410A2E /* copyclip_opensourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyclip_opensourceTests.swift; sourceTree = "<group>"; };
+		1368CA09232D9F8100410A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1368CA0E232D9F8100410A2E /* copyclip_opensourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = copyclip_opensourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1368CA12232D9F8100410A2E /* copyclip_opensourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyclip_opensourceUITests.swift; sourceTree = "<group>"; };
+		1368CA14232D9F8100410A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1368C9EE232D9F7E00410A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368CA00232D9F8100410A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368CA0B232D9F8100410A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1368C9E8232D9F7E00410A2E = {
+			isa = PBXGroup;
+			children = (
+				1368C9F3232D9F7E00410A2E /* copyclip_opensource */,
+				1368CA06232D9F8100410A2E /* copyclip_opensourceTests */,
+				1368CA11232D9F8100410A2E /* copyclip_opensourceUITests */,
+				1368C9F2232D9F7E00410A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1368C9F2232D9F7E00410A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1368C9F1232D9F7E00410A2E /* copyclip_opensource.app */,
+				1368CA03232D9F8100410A2E /* copyclip_opensourceTests.xctest */,
+				1368CA0E232D9F8100410A2E /* copyclip_opensourceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1368C9F3232D9F7E00410A2E /* copyclip_opensource */ = {
+			isa = PBXGroup;
+			children = (
+				1368C9F4232D9F7E00410A2E /* AppDelegate.swift */,
+				1368C9F6232D9F7E00410A2E /* ViewController.swift */,
+				1368C9F8232D9F8100410A2E /* Assets.xcassets */,
+				1368C9FA232D9F8100410A2E /* Main.storyboard */,
+				1368C9FD232D9F8100410A2E /* Info.plist */,
+				1368C9FE232D9F8100410A2E /* copyclip_opensource.entitlements */,
+			);
+			path = copyclip_opensource;
+			sourceTree = "<group>";
+		};
+		1368CA06232D9F8100410A2E /* copyclip_opensourceTests */ = {
+			isa = PBXGroup;
+			children = (
+				1368CA07232D9F8100410A2E /* copyclip_opensourceTests.swift */,
+				1368CA09232D9F8100410A2E /* Info.plist */,
+			);
+			path = copyclip_opensourceTests;
+			sourceTree = "<group>";
+		};
+		1368CA11232D9F8100410A2E /* copyclip_opensourceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1368CA12232D9F8100410A2E /* copyclip_opensourceUITests.swift */,
+				1368CA14232D9F8100410A2E /* Info.plist */,
+			);
+			path = copyclip_opensourceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1368C9F0232D9F7E00410A2E /* copyclip_opensource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1368CA17232D9F8100410A2E /* Build configuration list for PBXNativeTarget "copyclip_opensource" */;
+			buildPhases = (
+				1368C9ED232D9F7E00410A2E /* Sources */,
+				1368C9EE232D9F7E00410A2E /* Frameworks */,
+				1368C9EF232D9F7E00410A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = copyclip_opensource;
+			productName = copyclip_opensource;
+			productReference = 1368C9F1232D9F7E00410A2E /* copyclip_opensource.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1368CA02232D9F8100410A2E /* copyclip_opensourceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1368CA1A232D9F8100410A2E /* Build configuration list for PBXNativeTarget "copyclip_opensourceTests" */;
+			buildPhases = (
+				1368C9FF232D9F8100410A2E /* Sources */,
+				1368CA00232D9F8100410A2E /* Frameworks */,
+				1368CA01232D9F8100410A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1368CA05232D9F8100410A2E /* PBXTargetDependency */,
+			);
+			name = copyclip_opensourceTests;
+			productName = copyclip_opensourceTests;
+			productReference = 1368CA03232D9F8100410A2E /* copyclip_opensourceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1368CA0D232D9F8100410A2E /* copyclip_opensourceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1368CA1D232D9F8100410A2E /* Build configuration list for PBXNativeTarget "copyclip_opensourceUITests" */;
+			buildPhases = (
+				1368CA0A232D9F8100410A2E /* Sources */,
+				1368CA0B232D9F8100410A2E /* Frameworks */,
+				1368CA0C232D9F8100410A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1368CA10232D9F8100410A2E /* PBXTargetDependency */,
+			);
+			name = copyclip_opensourceUITests;
+			productName = copyclip_opensourceUITests;
+			productReference = 1368CA0E232D9F8100410A2E /* copyclip_opensourceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1368C9E9232D9F7E00410A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Max Dignan";
+				TargetAttributes = {
+					1368C9F0232D9F7E00410A2E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					1368CA02232D9F8100410A2E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1368C9F0232D9F7E00410A2E;
+					};
+					1368CA0D232D9F8100410A2E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1368C9F0232D9F7E00410A2E;
+					};
+				};
+			};
+			buildConfigurationList = 1368C9EC232D9F7E00410A2E /* Build configuration list for PBXProject "copyclip_opensource" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1368C9E8232D9F7E00410A2E;
+			productRefGroup = 1368C9F2232D9F7E00410A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1368C9F0232D9F7E00410A2E /* copyclip_opensource */,
+				1368CA02232D9F8100410A2E /* copyclip_opensourceTests */,
+				1368CA0D232D9F8100410A2E /* copyclip_opensourceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1368C9EF232D9F7E00410A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1368C9F9232D9F8100410A2E /* Assets.xcassets in Resources */,
+				1368C9FC232D9F8100410A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368CA01232D9F8100410A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368CA0C232D9F8100410A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1368C9ED232D9F7E00410A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1368C9F7232D9F7E00410A2E /* ViewController.swift in Sources */,
+				1368C9F5232D9F7E00410A2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368C9FF232D9F8100410A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1368CA08232D9F8100410A2E /* copyclip_opensourceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368CA0A232D9F8100410A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1368CA13232D9F8100410A2E /* copyclip_opensourceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1368CA05232D9F8100410A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1368C9F0232D9F7E00410A2E /* copyclip_opensource */;
+			targetProxy = 1368CA04232D9F8100410A2E /* PBXContainerItemProxy */;
+		};
+		1368CA10232D9F8100410A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1368C9F0232D9F7E00410A2E /* copyclip_opensource */;
+			targetProxy = 1368CA0F232D9F8100410A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1368C9FA232D9F8100410A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1368C9FB232D9F8100410A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1368CA15232D9F8100410A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1368CA16232D9F8100410A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1368CA18232D9F8100410A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = copyclip_opensource/copyclip_opensource.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCJDD4P974;
+				INFOPLIST_FILE = copyclip_opensource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dignan.copyclip-opensource";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1368CA19232D9F8100410A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = copyclip_opensource/copyclip_opensource.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCJDD4P974;
+				INFOPLIST_FILE = copyclip_opensource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dignan.copyclip-opensource";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1368CA1B232D9F8100410A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCJDD4P974;
+				INFOPLIST_FILE = copyclip_opensourceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dignan.copyclip-opensourceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/copyclip_opensource.app/Contents/MacOS/copyclip_opensource";
+			};
+			name = Debug;
+		};
+		1368CA1C232D9F8100410A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCJDD4P974;
+				INFOPLIST_FILE = copyclip_opensourceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dignan.copyclip-opensourceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/copyclip_opensource.app/Contents/MacOS/copyclip_opensource";
+			};
+			name = Release;
+		};
+		1368CA1E232D9F8100410A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCJDD4P974;
+				INFOPLIST_FILE = copyclip_opensourceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dignan.copyclip-opensourceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = copyclip_opensource;
+			};
+			name = Debug;
+		};
+		1368CA1F232D9F8100410A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RCJDD4P974;
+				INFOPLIST_FILE = copyclip_opensourceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dignan.copyclip-opensourceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = copyclip_opensource;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1368C9EC232D9F7E00410A2E /* Build configuration list for PBXProject "copyclip_opensource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1368CA15232D9F8100410A2E /* Debug */,
+				1368CA16232D9F8100410A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1368CA17232D9F8100410A2E /* Build configuration list for PBXNativeTarget "copyclip_opensource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1368CA18232D9F8100410A2E /* Debug */,
+				1368CA19232D9F8100410A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1368CA1A232D9F8100410A2E /* Build configuration list for PBXNativeTarget "copyclip_opensourceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1368CA1B232D9F8100410A2E /* Debug */,
+				1368CA1C232D9F8100410A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1368CA1D232D9F8100410A2E /* Build configuration list for PBXNativeTarget "copyclip_opensourceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1368CA1E232D9F8100410A2E /* Debug */,
+				1368CA1F232D9F8100410A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1368C9E9232D9F7E00410A2E /* Project object */;
+}
