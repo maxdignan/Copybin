@@ -55,7 +55,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func applyStringToSystemPasteQueue(text: String) {
-        let _ = shell("echo \"\(text)\" | pbcopy")
+        let executionString = "printf \"\(text)\" | pbcopy"
+        let _ = shell(executionString)
     }
     
     @objc func grabCopyApplyOnlyIfNotOnTop() {
