@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let statusBar = NSStatusBar.system
     var statusBarItem : NSStatusItem = NSStatusItem()
     let menu = NSMenu()
-    var copiedTexts : [String] = []
+    var copiedTexts : [Data] = []
     var timer : Timer = Timer()
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
@@ -35,7 +35,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     // https://stackoverflow.com/questions/26971240/how-do-i-run-an-terminal-command-in-a-swift-script-e-g-xcodebuild
-    func shell(_ command: String) -> String {
+    func shell(_ command: String) -> Data {
         let task = Process()
         task.launchPath = "/bin/bash"
         task.arguments = ["-c", command]
@@ -45,12 +45,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         task.launch()
         
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
-        let output: String = NSString(data: data, encoding: String.Encoding.utf8.rawValue)! as String
-        
-        return output
+        return data
     }
     
-    func getCurrentCopy() -> String {
+    func getCurrentCopy() -> Data {
         return shell("pbpaste")
     }
     
@@ -61,7 +59,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @objc func grabCopyApplyOnlyIfNotOnTop() {
         let currentCopiedText = self.getCurrentCopy()
-        self.applyToCopiedTextsIfNotOnTop(text: currentCopiedText)
+        self.applyToCopiedTextsIfNotOnTop(data: currentCopiedText)
     }
     
     func buildMenu() {
@@ -71,25 +69,29 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             self.copiedTexts.remove(at: self.copiedTexts.count - 1)
         }
         
-        self.copiedTexts.forEach({ text in
+        self.copiedTexts.forEach({ data in
             // Make its new menu item
             let menuItem = NSMenuItem()
-            menuItem.title = text
-            menuItem.action = #selector(self.helloAction(sender:))
+            do {
+                menuItem.title = NSString(data: data, encoding: String.Encoding.utf8.rawValue)! as String
+            } catch {
+                menuItem.title = "Error writing this copy to string" + data.base64EncodedString()
+            }
+            menuItem.action = #selector(self.menuItemSelected(sender:))
             menuItem.keyEquivalent = ""
             menu.addItem(menuItem)
         })
     }
     
-    func applyToCopiedTextsIfNotOnTop(text: String) {
-        if self.copiedTexts.first != text {
-            self.copiedTexts.insert(text, at: 0)
+    func applyToCopiedTextsIfNotOnTop(data: Data) {
+        if self.copiedTexts.first != data {
+            self.copiedTexts.insert(data, at: 0)
             
             self.buildMenu()
         }
     }
     
-    @objc func helloAction(sender: AnyObject) {
+    @objc func menuItemSelected(sender: AnyObject) {
         let selectedText  = (sender as! NSMenuItem).title
 
         print(selectedText)
