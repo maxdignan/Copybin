@@ -13,6 +13,9 @@
 		1368C9FC232D9F8100410A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1368C9FA232D9F8100410A2E /* Main.storyboard */; };
 		1368CA08232D9F8100410A2E /* copyclip_opensourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368CA07232D9F8100410A2E /* copyclip_opensourceTests.swift */; };
 		1368CA13232D9F8100410A2E /* copyclip_opensourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368CA12232D9F8100410A2E /* copyclip_opensourceUITests.swift */; };
+		13A1B1A1232D9F9100410A2F /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1B1A0232D9F9100410A2F /* MenuManager.swift */; };
+		13A1B1A3232D9F9200410A2F /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1B1A2232D9F9200410A2F /* ClipboardManager.swift */; };
+		13A1B1A5232D9F9300410A2F /* ClipboardHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1B1A4232D9F9300410A2F /* ClipboardHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		1368CA0E232D9F8100410A2E /* copyclip_opensourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = copyclip_opensourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1368CA12232D9F8100410A2E /* copyclip_opensourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyclip_opensourceUITests.swift; sourceTree = "<group>"; };
 		1368CA14232D9F8100410A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A1B1A0232D9F9100410A2F /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		13A1B1A2232D9F9200410A2F /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
+		13A1B1A4232D9F9300410A2F /* ClipboardHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			children = (
 				1368C9F4232D9F7E00410A2E /* AppDelegate.swift */,
 				1368C9F6232D9F7E00410A2E /* ViewController.swift */,
+				13A1B1A0232D9F9100410A2F /* MenuManager.swift */,
+				13A1B1A2232D9F9200410A2F /* ClipboardManager.swift */,
+				13A1B1A4232D9F9300410A2F /* ClipboardHistory.swift */,
 				1368C9F8232D9F8100410A2E /* Assets.xcassets */,
 				1368C9FA232D9F8100410A2E /* Main.storyboard */,
 				1368C9FD232D9F8100410A2E /* Info.plist */,
@@ -256,6 +265,9 @@
 			files = (
 				1368C9F7232D9F7E00410A2E /* ViewController.swift in Sources */,
 				1368C9F5232D9F7E00410A2E /* AppDelegate.swift in Sources */,
+				13A1B1A1232D9F9100410A2F /* MenuManager.swift in Sources */,
+				13A1B1A3232D9F9200410A2F /* ClipboardManager.swift in Sources */,
+				13A1B1A5232D9F9300410A2F /* ClipboardHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -408,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
