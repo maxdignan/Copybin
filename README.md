@@ -42,20 +42,6 @@ Once installed, CopyClip will appear in your menu bar. Click the icon to:
 - Select any previous item to copy it back to your clipboard
 - Access recent items quickly
 
-## Development
-
-The project is built with modern Swift practices and follows clean architecture principles:
-
-- **Modular Design**: Separated concerns with dedicated managers for clipboard and menu operations
-- **Memory Efficient**: Optimized for minimal resource usage
-- **Error Handling**: Robust error handling and user feedback
-- **Accessibility**: Built with accessibility in mind
-
-### Project Structure
-- `AppDelegate.swift`: Main application entry point
-- `ClipboardManager.swift`: Handles clipboard operations
-- `MenuManager.swift`: Manages the menu bar interface
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
